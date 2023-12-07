@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.859 s <<< FAILURE! -- in TestSuite
+runners.SmokeTestRunner.runScenario["search for simple keyword", "Google Search"](1) -- Time elapsed: 6.472 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pages.Homepage.enterSearch(String)" because "this.aqf1" is null
+	at steps.GoogleSearch.i_enter_on_the_search_box(GoogleSearch.java:37)
+	at ✽.I enter "QA jobs in NY" on the search box(file:///C:/Users/Owner/eclipse-workspace/ArmyQAF/Features/GoogleSearch.feature:6)
+
